@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, laborum. Repellendus est reprehenderit error nulla inventore ratione, recusandae consectetur, non provident odio unde quisquam dolorem ducimus quas officiis iste corporis!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rerum, minima voluptate molestiae dolores deleniti quisquam veritatis assumenda dicta praesentium dignissimos ipsum nemo! Nobis corrupti similique eos ab numquam quidem.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error minima commodi sint accusantium, aut possimus repudiandae debitis cupiditate natus architecto tenetur, adipisci doloribus dolor labore nulla! Perferendis dolor suscipit hic?
+    </p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, recusandae! Itaque, aperiam omnis. Cum, debitis! Quisquam excepturi, omnis, expedita sequi dicta aliquid iusto architecto ea ex cupiditate numquam veritatis? Expedita.</p>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos sed autem, temporibus cupiditate rerum quod? Dicta maiores neque voluptatem quo eius, ipsa dolores laudantium, tenetur sint nulla reprehenderit dolore voluptas!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis id eveniet facere voluptatem eos, hic placeat eaque architecto ipsam unde ut deserunt fuga ipsa doloribus adipisci dolorem cum nemo perferendis.
+    </p>
+</body>
+</html>

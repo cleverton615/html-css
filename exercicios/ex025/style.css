@@ -1,0 +1,20 @@
+fieldset {
+    color: green;
+    background-color: gray;
+    width: 30%;
+}
+
+legend {
+    color: red;
+}
+
+input {
+    font-weight: bold;
+    color: pink;
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 4em;
+    color: blue;
+}
